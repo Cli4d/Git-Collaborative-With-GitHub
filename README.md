@@ -38,7 +38,7 @@ Thsi is a repo designed to help learners explore the capabilities of git and Git
 ### Getting Project Ready
 
 #### Installation
-To be able to harness the full power of git, you'll need to have git installed on your machine. To successfully do this you can go to the [git website]([url](https://git-scm.com/)) and install.
+To be able to harness the full power of git, you'll need to have git installed on your machine. To successfully do this you can go to the [git website](https://git-scm.com/) and install.
 
 For Windows users this will involve installing **git bash**.
 
@@ -103,7 +103,7 @@ git commit -m "Title of the commit" -m "The description of the title"
 To better understand how git works, we need to have a high level understanding of a git environment and the different states of files that it works with. 
 
 ##### Working, staging and repository environments
-Git promarily has 3 key environments where it works on. That is:
+Git primarily has 3 key environments where it works on. That is:
 - Working Environment: Is the current state of your repo. Where you are building your project. This can be a local repository of your project's directory
 - Staging environment: this is the buffer zone where all changes that have been added using the `git add` command exost waiting a commit
 - Repository/Commit environment: this it where all goes after a commit. Files from staging area move here after a commit and are recorded in the project's history
