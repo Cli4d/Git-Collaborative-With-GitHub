@@ -48,7 +48,7 @@ The first time you are using git, you will need to setup some configuration vari
 
 The most common set variables are name, email and default code editor. To configure them, you can run the following commands in your terminal (You can use the VSCode terminal or git bash for windows users)
 
-```
+```bash
 //Configuring name
 git config --global user.name "firstName SecondName"
 
@@ -68,7 +68,7 @@ It is important to note that in email, using your github email makes it better f
 #### Initializing a project
 Now that we have successfully downloaded, installed git and set our config variables  we can initialize a oroject to be a git repository. 
 To initialize a project, navigate to the root directory of the project and run the following command
-``` git
+```bash
 git init
 ```
 This adds a hidden .git folder that helps in tracking all the changes of your repository(project).
@@ -80,7 +80,7 @@ Git offers you a bunch of ways to handle and manage changes throughout your proj
 #### Staging files
 Staging a file is moving the file to a sort of waiting bay as you prepare to commit it. You can add files to the staging area using this command
 
-```
+```bash
 //Adding one file at a time
 git add filename.extension
 
@@ -91,7 +91,7 @@ git add .
 #### Recording changes using checkpoints
 Commits can be viewed as checkpoints marking certin stages during a projects timeline and giving a description about it for easy rememberance in future. It's kind of like how people visit certain places and leave a mark 'Clifford was here". 
 Commits record changes that happen and give a message to describe the changes. After adding files to the staging are, we need to commit them. You can do that using the following command:
-``` git
+```bash
 git commit -m "Descriptive message goes in here"
 
 //Adding a commit title then a commit message
@@ -124,12 +124,12 @@ Git usually handles file operations differently. There are 2 main ways to delete
    - When renaming the file, rename the file as you would using your operating system. Git will view this as 2 changes. First, *a deletion of the old file name*(the file that has been renamed) then *addition of the new renamed file*.
 2. **Using git commands**
    - To delete, use the
-```
+```bash
 git rm <filename>
 ```
   This records the change and moves it to the staging area ready for you to commit (`git commit -m "message goes here"`)
    - To rename, use 
-```
+```bash
 git mv currentName newName
 ```
    This command also records the change and moves it to staging area ready for you to commit.
@@ -149,24 +149,24 @@ To ignore a file, you create a file named `.gitignore` and have it in the root d
 ### Reviewing your projects history  
 #### Relfecting on the past
 Git allows you to always look at the past history of your project and how it is changing at the moment.   
-```
+```bash
 git status
 ``` 
 This command allows you to always check the current state of your project at any point and time. It will show what states the files are in and whichever changes are waiting to be *added* or *committed*.
 
-```
+```bash
 git log
 ``` 
 This command shows all the commits/checkpoints in your project's history. To exit/quit the log, press `Q`. 
 
 If you have so many commits, the information displayed by `git log` might be overwhelming. To show a simplified view of your logs, you can use
-```
+```bash
 git log --oneline
 ```  
 
 #### Differentiating changes
 In git you can always look at the differences between your current version of the repo and other previous ones. The command used for this is
-```
+```bash
 git diff
 ```
 It shows the differences between files in your repo.  
@@ -178,7 +178,7 @@ To open Source control tab on VSCode, use `ctrl+Shift+G` in windows or `Command 
 Once you open, just click on a file to open a view of the differences in the file.  
 
 On the terminal you can compare the current project state with an earlier version using the command
-```
+```bash
 git diff <commit hash>
 ```
 
@@ -191,13 +191,13 @@ There are better and more specialized tools to use when doing a lot of differenc
 You can always change the current state of your repo to how it ways in a certain point of your project's history. This can be done because of various reasons.  
 
 To do this, 
-```
+```bash
 git reset <commit hash>
 ```
 This command resets the repo to the state it was in that commit. However, it **doesn't delete the changes** you have made since then. It only unstages and uncommits them.  
 
 To reset and delete changes made, you use the `--hard` flag.
-```
+```bash
 git reset --hard <commit hash> 
 ```
 **CAUTION:** This is a dangerous command and should therefore be used with a lot of care
@@ -206,7 +206,7 @@ git reset --hard <commit hash>
 The beauty about git is that you can not only travel back in time during your project's history but you can also change history.  
 
 To ammend the commits you had previously made, you can use
-```
+```bash
 git commit --amend 
 ```
 This opens up your code editor and allows you to change whatever you wrote in your commits
@@ -217,11 +217,11 @@ Branches are alternative timelines/versions of your code/project.
 The exist to experiment with your code and to try out different features and changes without messing up the original code. It is like a personalized sandbox.
 
 To see all the branches existing in your repo use 
-```
+```bash
 git branch
 ```
 To create a branch, you use
-```
+```bash
 git switch -c branchName
 
 //or use
@@ -231,7 +231,7 @@ git branch -checkout branchName
 This creates a branch with your specified *branchName* and switches you from the main branch (or the branch you were in) to the created branch.
 
 To switch to another existing branch, you use
-```
+```bash
 git switch branchName
 
 //or use
@@ -241,14 +241,14 @@ git checkout branchName
 After making your changes in the branch and confirming it works well, you might need to add the changes in the created branch to your main branch. This is called **merging**.   
 To merge
 - Switch to the main branch first then run the command
-```
+```bash
 git merge createdBranchName
 ```
 This will merge all the changes made on the created branch to the main branch.
 
 After merging the two branches, it is good practice to delete the created branch as it is same as the main branch. To delete a branch 
 
-```
+```bash
 git branch -d branchName
 
 //OR
@@ -292,14 +292,14 @@ Mostly at any time, there exists 2 repos in your workspace:
 Remotes are the connection that exists between your local repo and your GitHub repository. It is useful in syncing changes between your online and local repo
 
 To setup a remote 
-```
+```bash
 git remote add remoteName URL
 ```
 The **remoteName** can be anything but the most commonly used is origin.   
 The **URL** is the link to your online repo from GitHub
 
 These are other commands to help you manipulate your remotes
-```
+```bash
 //removing a remote
 git remote remove remoteName
 
@@ -321,7 +321,7 @@ To make full use of online repos, one has to sync changes made to the local repo
 To push changes from your local repo to the online repo. This is done after setting up the remote.   
 
 The first time doing this
-```
+```bash
 git push -u remoteName branchName
 
 ```
@@ -329,25 +329,25 @@ git push -u remoteName branchName
 The **-u flag** is an upstream and it is set to tell git the remote and the branch(in this case master) where the commits are to be pushed to. The upstream is only set once. 
 
 Next time you are pushing, 
-```
+```bash
 git push
 ```
 
 To clone an online repo to the local machine use
-```
+```bash
 git clone URL
 ```
 The **URL** is the link to the online repo and can be obtained from GitHub
 
 To get changes from the online repo to the local repo you can:
 - **Fetching**
-```
+```bash
 git fetch
 ```
 This downloads info from the remote/online repo to the local repo. It only gets the infomation, but does not merge with what is in the local repo
 
 - **Pulling**
-```
+```bash
 git pull
 ```
 This is a combination of `git fetch` and `git merge`. It fetches the info from the remote repo and merges with the local repo.   
