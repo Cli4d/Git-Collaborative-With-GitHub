@@ -1,10 +1,10 @@
 # About The Practice games
 
 In this directory you'll find 2 markdown files and another directory called submissions. 
-1. Markdown Files
+1. **Markdown Files**   
 The 2 markdown files are instructions for the games.   
 
-1. Sumbmissions Directory
+1. **Submissions Directory**   
 In the submissions directory there are 2 markdown files for the meme game and the vision board challenge. These are template files. You can modify the template for your submission or you can just delete it's contents to create your own. Whichever works for you.
 
 ## Get Started
