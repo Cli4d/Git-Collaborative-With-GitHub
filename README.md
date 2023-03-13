@@ -2,38 +2,36 @@
 Thsi is a repo designed to help learners explore the capabilities of git and GitHub in helping them collaborate better and boost their productivity. It is created as a follow up to the GitHub Workshop conducted for Microsoft's Game Of Learners Season 4 participants to get them to better understand Git and GitHub
 
 ## What it covers 
-1. Getting your project ready
-   - Installing git on your machine
-   - Configuration variables
-      - Email, username and ignore file
-   - Initializing a git project (`git init`)
-1. Making and handling project changes with git
-   - Staging files with `git add`
-   - Recording changes using checkpoints(`git commit`)
-   - Git under the hood
-      - Working, staging and commit environments
-      - File states
-          - Tracked
-             - Unmodified, modified, staged
-          - Untracked
-   - Deleting and renaming files
-   - Ignoring files
-1. Reviewing your projects history
-   - Reflecting on your project's history using `git status`, `git log` and `git log --oneline`
-   - Differentiating changes
-     - `git diff` 
-     - VSCode Source control tab
-     - Comparing changes with specific commits. `git diff commitHash`
-1. Travelling back in time and rewriting history
-   - Ammending commits
-1. Working with branches
-   - Manipulating branches
-   - Merging and Pull requests
-2. Imortalizing your project with GitHub
-   - Setting up a GitHub account and creating a GitHub repository 
-   - Connecting your local repo with online repo with remotes
-   - Syncing with GitHub
-3. Resources on git and GitHub
+- [Git-Collaborative-With-GitHub](#git-collaborative-with-github)
+  - [What it covers](#what-it-covers)
+  - [Let's get started](#lets-get-started)
+    - [Getting Project Ready](#getting-project-ready)
+      - [Installation](#installation)
+      - [Configuration variables](#configuration-variables)
+      - [Initializing a project](#initializing-a-project)
+    - [Making and handling project changes with git](#making-and-handling-project-changes-with-git)
+      - [Staging files](#staging-files)
+      - [Recording changes using checkpoints](#recording-changes-using-checkpoints)
+      - [Git under the hood](#git-under-the-hood)
+        - [Working, staging and repository environments](#working-staging-and-repository-environments)
+        - [File States](#file-states)
+      - [Deleting and Renaming files](#deleting-and-renaming-files)
+      - [Ignoring Files](#ignoring-files)
+    - [Reviewing your projects history](#reviewing-your-projects-history)
+      - [Relfecting on the past](#relfecting-on-the-past)
+      - [Differentiating changes](#differentiating-changes)
+    - [Travelling back in time and rewriting history](#travelling-back-in-time-and-rewriting-history)
+      - [Ammending commits](#ammending-commits)
+    - [Working with branches](#working-with-branches)
+        - [Merging](#merging)
+        - [Merge Conflicts](#merge-conflicts)
+    - [Immortalizing Your project with GitHub](#immortalizing-your-project-with-github)
+      - [Setting up a GitHub account](#setting-up-a-github-account)
+      - [Connecting your online repo to your local repo](#connecting-your-online-repo-to-your-local-repo)
+      - [Setting up a remote](#setting-up-a-remote)
+      - [Syncing With GitHub](#syncing-with-github)
+    - [More Resources](#more-resources)
+  - [Practice Time!](#practice-time)
 
 
 ## Let's get started
@@ -374,3 +372,5 @@ Covers:-
    - **Manage the lifecycle of your projects on GitHub** - Take full control of your GitHub projects. Through work planning and tracking, effective branching strategies, and extending GitHub through its API, manage releases all the way from idea to working software in the hands of your users. Click [here](https://learn.microsoft.com/en-us/training/paths/manage-project-lifecycle-github/)
 
 ## Practice Time!
+
+
