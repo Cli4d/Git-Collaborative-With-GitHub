@@ -366,9 +366,11 @@ Covers:-
 
 1. **GitHub Skills:** learn how to use GitHub with interactive courses designed for beginners and experts. Check it [here](https://skills.github.com/) 
 
+1. **Game of Learners Season 4: GitHub Workshop Slides:** Access the workshop slides [here](https://www.canva.com/design/DAFcfzJZzqM/b-Ag7G2JUH8w-Zd5BDm84w/view?utm_content=DAFcfzJZzqM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
 2. **GitHub Learning paths on Microsoft Learn:**
-   - **Manage source control** - Learn how GitHub enables you to build a modern source control strategy that fosters collaboration and enables you to automate your build and deployment processes.Click [here](https://learn.microsoft.com/en-us/training/paths/az-400-manage-source-control/)
-   - **Collaborate with others with Markdown and GitHub Pages** - Learn how to use Markdown to effectively communicate with others in your GitHub issues, pull requests, comments, and documentation. Then learn how to build project sites and blog posts to promote your projects with GitHub Pages.Click [here](https://learn.microsoft.com/en-us/training/paths/collaborate-markdown-github-pages/)
+   - **Manage source control** - Learn how GitHub enables you to build a modern source control strategy that fosters collaboration and enables you to automate your build and deployment processes. Click [here](https://learn.microsoft.com/en-us/training/paths/az-400-manage-source-control/)
+   - **Collaborate with others with Markdown and GitHub Pages** - Learn how to use Markdown to effectively communicate with others in your GitHub issues, pull requests, comments, and documentation. Then learn how to build project sites and blog posts to promote your projects with GitHub Pages. Click [here](https://learn.microsoft.com/en-us/training/paths/collaborate-markdown-github-pages/)
    - **Manage the lifecycle of your projects on GitHub** - Take full control of your GitHub projects. Through work planning and tracking, effective branching strategies, and extending GitHub through its API, manage releases all the way from idea to working software in the hands of your users. Click [here](https://learn.microsoft.com/en-us/training/paths/manage-project-lifecycle-github/)
 
 ## Practice Time!
