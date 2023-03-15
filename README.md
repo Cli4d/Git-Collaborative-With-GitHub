@@ -227,6 +227,8 @@ git switch -c branchName
 //or use
 git branch -checkout branchName
 
+//or use
+git checkout -b branchName
 ```
 This creates a branch with your specified *branchName* and switches you from the main branch (or the branch you were in) to the created branch.
 
