@@ -381,3 +381,5 @@ To get some hands on practice with git, I have created some 2 interactive games 
 
 Head over to the folder, read the game instructions and start the game. Use this README file as a reference to the git commands and explanations. 
 
+3. **Feel free to share with your friends so they can play the git game as well:)**
+
