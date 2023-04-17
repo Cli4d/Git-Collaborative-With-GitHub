@@ -22,6 +22,8 @@ Share a meme that represents your favorite supervillain. We all love to hate a g
 ### Category 4: Favorite hobby 
 Share a meme related to your favorite hobby or pastime.
 
+![Hobby](https://media.istockphoto.com/id/973722408/photo/silhouette-of-cyclist-on-the-background-of-beautiful-sunset.jpg?s=612x612&w=0&k=20&c=WiFWuNZkBHEY_7wdUMAxfTbonIFlR1z64QQhB5jZOQ8=)
+
 ### Category 4: Your Sports Club
 Share a meme that represents your favorite sports club. Whether you're a football fan, a basketball enthusiast, or a rugby lover, let's see which team you support!
 
